@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.Project_Container{
+    height: 780px;
+    width: 100%;
+    background-image: url("../assets/portfolio8.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1380px 720px;
+    font-family: 'Fira Mono', monospace;
+    font-family: 'Outfit', sans-serif
+    
+}
+.Project_Container h1{
+    text-align: center;
+    color: black;
+    font-size: 80px;
+
+
+}
+
+.cardbox{
+    
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+    display: flex;
+    background-color: white;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 20px;
+    z-index: 3;
+    backdrop-filter: blur(20px);
+
+    
+
+}
+.cards{
+    width:25%;
+    height: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: white;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 20px;
+    z-index: 4;
+    backdrop-filter: blur(20px);
+    
+
+    
+    
+
+
+}
+
+.cards button{
+    background-color: yellow;
+    margin-left: 30%;
+    margin-top: 30%;
+    
+}
+
+.cards h4{
+    text-align: center;
+    color: black;
+}
+.cards p{
+    text-align: center;
+    color: black;
+}
+.cards button:hover{
+    background-color: orange;
+
+}
