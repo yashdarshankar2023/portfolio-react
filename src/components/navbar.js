@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./navbarstyles.css"
 import {Link} from "react-router-dom"
 import React, { useState } from 'react'
@@ -6,7 +7,12 @@ import {FaBars,FaTimes} from "react-icons/fa"
 const Navbar = () => {
   const[click,setClick] = useState(false);
   const handleClick = () => setClick(!click);
-  const [color,setColor] = useState(false); 
+  const [color,setColor] = useState(false);
+  const [Home,setHome] = useState(false);
+  const [Skills,setSkills] = useState(false);
+  const [Education,setEducation] = useState(false);
+  const [Project,setProject] = useState(false);
+   
   const HomeScroll = () =>{
     window.scrollTo({
       top: 0, 
@@ -21,37 +27,48 @@ const Navbar = () => {
   };
   const SkillScroll = () =>{
     window.scrollTo({
-      top: 1880, 
+      top: 1400, 
       behavior: 'smooth'
     });
   };
   const EducationScroll = () =>{
     window.scrollTo({
-      top: 3000, 
+      top: 2200, 
       behavior: 'smooth'
     });
   };
   const changeColor = () =>{
     if(window.scrollY >=1){
         setColor(true);
-    
+        if(window.scrollY > 1 && window.scrollY < 600){
+          setHome(true);
+          
+        }
+        else{
+          setHome(false);
+        }
+        if(window.scrollY > 600 && window.scrollY < 1300){
+          setProject(true);
+        }
+        else{
+          setProject(false);
+        }
+        if(window.scrollY > 1300 && window.scrollY < 2100){
+          setSkills(true);
+        }
+        else{
+          setSkills(false);
+        }
+        if(window.scrollY > 2100 && window.scrollY < 2700){
+          setEducation(true);
+        }
+        else{
+          setEducation(false);
+        }
     }else{
         setColor(false);
     }
   };
-  const Resume = () =>{
-    fetch('SamplePDF.pdf').then(response => {
-      response.blob().then(blob => {
-          // Creating new object of PDF file
-          const fileURL = window.URL.createObjectURL(blob);
-          // Setting various property values
-          let alink = document.createElement('a');
-          alink.href = fileURL;
-          alink.download = 'SamplePDF.pdf';
-          alink.click();
-      })
-  })
-  }
   window.addEventListener('scroll',changeColor)
   return (
     <div className={color ? "header header-bg" : "header"}>
@@ -60,23 +77,23 @@ const Navbar = () => {
         </Link>
         <ul className={click ? "navmenu active":"navmenu"}>
             <li>
-                <a onClick={HomeScroll}>Home</a>
+                <a onClick={HomeScroll} className={Home ? "pointer" : ""}>Home</a>
             </li>
             
             <li>
         
-                <a onClick={ProjectScroll}>Project</a>
+                <a onClick={ProjectScroll}className={Project ? "pointer" : ""}>Project</a>
             </li>
             
             <li>
-                <a onClick={SkillScroll}>Skills</a>
+                <a onClick={SkillScroll}className={Skills ? "pointer" : ""}>Skills</a>
             </li>
             
             <li>
-                <a onClick={EducationScroll}>Education</a>
+                <a onClick={EducationScroll}className={Education ? "pointer" : ""}>Education</a>
             </li>
             <li>
-              <a href="https://drive.google.com/file/d/11pv1225pBjwLrZ8eBiAs8FfhMxtrBHcg/view?usp=sharing" download="Yash_Darshankar">Resume</a>
+              <a href="https://drive.google.com/file/d/19n9hgsBsmx1SuQkvZx386pXPBfs2Gx7d/view?usp=sharing" download="Yash_Darshankar">Resume</a>
             </li>
             <li>
             <a href="mailto:yashhdarshankar@gmail.com">Email me</a>

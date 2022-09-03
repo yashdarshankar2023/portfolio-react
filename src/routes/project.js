@@ -8,19 +8,19 @@ const project = () => {
       <h1>Projects</h1>
       <div className='cardbox'>
         <div className='cards'>
-          <h4>Project1</h4>
-          <p>This is Project1 and here are it's specifications and this is card1 and link is provided below</p>
+          <h4>Chatroom</h4>
+          <p>It is a realtime chatroom . For the project to work properly open this link on two different tabs (or computers)and use different usernames .<br/><br/><br/><br/><br/></p>
           <a href="https://yashdarshankar2023.github.io/chatroom/" target="_parent"><button>Click here !</button></a>
         </div>
       <div className='cards'>
-          <h4>Project2</h4>
-          <p>This is project2 and here are it's specifications and this is card1 and link is provided below</p>
-          <a href="https://yashdarshankar2023.github.io/chatroom/" target="_parent"><button>Click here !</button></a>
+          <h4>Linear Search Simulation</h4>
+          <p>This project shows the concept of linear search through a simulation,I have used HTML, CSS, Javascript for this project.<br/><br/><br/><br/><br/></p>
+          <a href="https://yashdarshankar2023.github.io/linearsearch_simulation/" target="_parent"><button>Click here !</button></a>
       </div>        
       <div className='cards'>
-          <h4>Project3</h4>
-          <p>This is Project3 and here are it's specifications and this is card1 and link is provided below</p>
-          <a href="https://yashdarshankar2023.github.io/chatroom/" target="_parent"><button>Click here !</button></a>
+          <h4>Login/Registration form</h4>
+          <p>It is a login/registeration form , In which nodejs,mongodb is used.<br/><br/><br/><br/><br/><br/><br/></p>
+          <a href="https://sleepy-river-41131.herokuapp.com/" target="_parent"><button>Click here !</button></a>
         </div>
 
         

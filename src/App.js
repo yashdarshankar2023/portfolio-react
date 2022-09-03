@@ -1,6 +1,5 @@
 import "./index.css";
 import Home from "./routes/home"
-import Contact from "./routes/contact"
 import Project from "./routes/project"
 import Skills from "./routes/skill"
 import Navbar from './components/navbar';
