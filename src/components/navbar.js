@@ -8,10 +8,7 @@ const Navbar = () => {
   const[click,setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const [color,setColor] = useState(false);
-  const [Home,setHome] = useState(false);
-  const [Skills,setSkills] = useState(false);
-  const [Education,setEducation] = useState(false);
-  const [Project,setProject] = useState(false);
+
    
   const HomeScroll = () =>{
     window.scrollTo({
@@ -46,31 +43,7 @@ const Navbar = () => {
   const changeColor = () =>{
     if(window.scrollY >=1){
         setColor(true);
-        if(window.scrollY > 1 && window.scrollY < 600){
-          setHome(true);
-          
-        }
-        else{
-          setHome(false);
-        }
-        if(window.scrollY > 600 && window.scrollY < 1300){
-          setProject(true);
-        }
-        else{
-          setProject(false);
-        }
-        if(window.scrollY > 1300 && window.scrollY < 2100){
-          setSkills(true);
-        }
-        else{
-          setSkills(false);
-        }
-        if(window.scrollY > 2100 && window.scrollY < 2700){
-          setEducation(true);
-        }
-        else{
-          setEducation(false);
-        }
+     
     }else{
         setColor(false);
     }
