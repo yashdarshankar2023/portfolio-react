@@ -42,6 +42,7 @@ p{
 }
 .phone{
     display: flex;
+
 }
 @media screen and (max-width:640px){
     .footer-container{

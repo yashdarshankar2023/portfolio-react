@@ -19,21 +19,27 @@ const Navbar = () => {
       behavior: 'smooth'
     });
   };
-  const ProjectScroll = () =>{
+  const ExperienceScroll = () =>{
     window.scrollTo({
       top: 700, 
       behavior: 'smooth'
     });
   };
-  const SkillScroll = () =>{
+  const ProjectScroll = () =>{
     window.scrollTo({
       top: 1400, 
       behavior: 'smooth'
     });
   };
-  const EducationScroll = () =>{
+  const SkillScroll = () =>{
     window.scrollTo({
       top: 2200, 
+      behavior: 'smooth'
+    });
+  };
+  const EducationScroll = () =>{
+    window.scrollTo({
+      top: 2900, 
       behavior: 'smooth'
     });
   };
@@ -78,6 +84,9 @@ const Navbar = () => {
         <ul className={click ? "navmenu active":"navmenu"}>
             <li>
                 <a onClick={HomeScroll}>Home</a>
+            </li>
+            <li>
+                <a onClick={ExperienceScroll}>Experience</a>
             </li>
             
             <li>

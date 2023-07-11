@@ -1,5 +1,6 @@
 import "./index.css";
 import Home from "./components/home"
+import Experience from "./components/experience"
 import Project from "./components/project"
 import Skills from "./components/skill"
 import Navbar from './components/navbar';
@@ -11,7 +12,11 @@ function App() {
     <>
     <Navbar/>
     <Home/>
+    <br/><br/>
+    <Experience/>
+
     <Project/>
+ 
     <Skills/>
     <Education/>
     <Footer/>
