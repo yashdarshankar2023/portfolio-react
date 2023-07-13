@@ -4,28 +4,61 @@ import "../styles/education.css"
 const education = () => {
   return (
     <div className='Education_Container'>
-        <br/>
+      <br/>
+        
         <h1>Education</h1>
-        <div className='college_course'>
+       
         <div className='education_box'>
-          <h4>Education</h4>
-          &nbsp;<li>MGM's College of Engineering</li>
+         
+          {/* &nbsp;<li>MGM's College of Engineering</li>
           &nbsp;<li>Cambridge jr. college</li>
-          &nbsp;<li>Universal English Medium School</li>
+          &nbsp;<li>Universal English Medium School</li> */}
+          <table className='education_table'>
+            <tr>
+            <th> SR no</th>
+            <th> Name of College</th>
+            <th> Boards / Degrees</th>
+            <th> Starting Date</th>
+            <th> Ending Date</th>
+            <th> CGPA / Percentage Obtained</th>
+            
+    
+
+            </tr>
+            <tr>
+              <td>1.</td>
+              <td>MGM's college of engineering, Nanded</td>
+              <td>BTECH</td>
+              <td>July 11,   2019</td>
+              <td>Recently Completed</td>
+              <td>8.66 CGPA</td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>Cambridge jr. College</td>
+              <td>HSC</td>
+              <td>June 11, 2018</td>
+              <td>June 11, 2019</td>
+              <td>62.46%</td>
+            </tr>
+            <tr>
+              <td>3.</td>
+              <td>Universal English Medium School</td>
+              <td>SSC</td>
+              <td>June 27, 2016</td>
+              <td>June 27, 2017</td>
+              <td>84.60%</td>
+            </tr>
+  
+          </table>
           
         </div>
-      <div className='course_box'>
-          <h4>Courses</h4>
-          &nbsp;<li>python programmer certification&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/file/d/1mlO1Gt3tzHE34mjpoi38ybQ0gTs3pffU/view?usp=sharing"><button >View</button></a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<i>Infosys-springboard</i>)<br/><br/><br/></li>
-          &nbsp;<li>The joy of computing using python&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/file/d/11pv1225pBjwLrZ8eBiAs8FfhMxtrBHcg/view?usp=sharing"><button>View</button></a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<i>NPTEL</i>)<br/><br/><br/></li>
-        
-        
-      </div>  
+
     </div>
 
         
 
-    </div>
+  
   )
 }
 
