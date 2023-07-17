@@ -12,11 +12,11 @@ function App() {
     <>
     <Navbar/>
     <Home/>
-    <br/><br/>
+    <br/>
     <Experience/>
-
+    <br/>
     <Project/>
- 
+    <br/>
     <Skills/>
     <Education/>
     <Footer/>

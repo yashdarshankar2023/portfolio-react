@@ -15,14 +15,7 @@
 }
 
 
-.college_course{
-    width: 90%;
-    height: 60%;
-    margin-left: 5%;
-    display: flex;
-    border-radius: 20px;
-    z-index: 3;
-}
+
 .education_box{
     width:90%;
     height: 60%;
@@ -60,6 +53,12 @@
         background-size: 1520px 1440px;
         margin-top: 2%;    
     }
+    .Education_Container h1{
+        text-align: center;
+        color: rgb(241, 127, 127);  
+        font-size: 40px;
+        font-weight: 400;
+    }
     .college_course{
         width: 80%;
         height: 40%;
@@ -69,8 +68,8 @@
         display: block;
     }
     .education_box{
-        width:100%;
-        height: 100%;
+        width:90%;
+        height: 85%;
         background-color: white;
         background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
         border-radius: 20px;
@@ -89,6 +88,21 @@
         z-index: 4;
         backdrop-filter: blur(20px);
         border: 1px solid black;
+    }
+    .education_table {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        z-index: 3;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    .education_table td, .education_table th{
+        border: 1px solid gray;
+        text-align: center;
+    }
+    .education_table th:nth-child(3),.education_table th:nth-child(4),.education_table th:nth-child(1),.education_table td:nth-child(3),.education_table td:nth-child(4),.education_table td:nth-child(1){
+        display: none;
     }
 
   }

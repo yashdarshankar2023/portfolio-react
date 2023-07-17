@@ -22,24 +22,7 @@ const skill = () => {
         <div className='skill_box'>
         <br/>
            <h3>Skills</h3>
-          {/* <table className='skill_table'>
-            <tr>
 
-              <td><li>HTML</li></td>
-              <td><li>CSS</li></td>
-              <td><li>javascript</li></td>
-            </tr>
-            <tr>
-              <td><li>Python</li></td>
-              <td><li>ReactJS</li></td>
-              <td><li>MongoDB</li></td>
-            </tr>
-            <tr>
-              <td><li>NodeJs</li></td>
-              <td><li>DSA</li></td>
-              <td><li>DBMS</li></td>
-            </tr>
-          </table> */}
             <br/> 
           <li>Python</li>
           <br/>

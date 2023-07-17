@@ -1,41 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
-.Project_Container{
+
+.Project_Container {
     height: 780px;
     width: 100%;
     background-image: url("../assets/portfolio8.webp");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1520px 720px;
+    background-size: 1520px 1500px;
     font-family: 'Fira Mono', monospace;
     font-family: 'Outfit', sans-serif
-    
 }
-.Project_Container h1{
+
+.Project_Container h1 {
     text-align: center;
-    color: rgb(45, 146, 204);    
+    color: rgb(45, 146, 204);
     font-size: 80px;
     font-weight: 600;
 }
-.project_box{
-    width:49%;
+
+.project_box {
+    width: 49%;
     height: 100%;
     background-color: white;
-    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     border-radius: 20px;
     z-index: 4;
     backdrop-filter: blur(20px);
     border: 1px solid black;
 }
-.project_box h4{
+
+.project_box h4 {
     color: black;
     text-align: center;
 
 }
-.project_box li{
+
+.project_box li {
     margin-left: 10px;
 }
 
-.projectbtn{
+.projectbtn {
     width: 60%;
     height: 50px;
     margin-left: 20%;
@@ -45,44 +49,112 @@
     border: solid 2px white;
     font-size: large;
 }
-.projectbtn:hover{
+
+.projectbtn:hover {
 
     opacity: 0.7;
 }
 
-.project_box2{
-    width:49%;
+.project_box2 {
+    width: 49%;
     height: 100%;
     margin-left: 2%;
     background-color: white;
-    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     border-radius: 20px;
     z-index: 4;
     backdrop-filter: blur(20px);
     border: 1px solid black;
 }
-.project_box2 h4{
+
+.project_box2 h4 {
     color: black;
     text-align: center;
 
 }
-.project_box2 li{
+
+.project_box2 li {
     margin-left: 10px;
 }
 
 
 
 @media screen and (max-width: 600px) {
-    .Project_Container{
-        height: 1560px;
+    .Project_Container {
+        height: 1480px;
         width: 100%;
         background-image: url("../assets/portfolio8.webp");
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 1520px 1440px;
+        /* background-size: 1520px 720px; */
         font-family: 'Fira Mono', monospace;
         font-family: 'Outfit', sans-serif
-        
+    }
+
+    .Project_Container h1 {
+        text-align: center;
+        color: rgb(45, 146, 204);
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .project_box {
+        width: 100%;
+        height: 110%;
+        background-color: white;
+        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+        border-radius: 20px;
+        z-index: 4;
+        backdrop-filter: blur(20px);
+        border: 1px solid black;
+    }
+
+    .project_box h4 {
+        color: black;
+        text-align: center;
 
     }
-  }
+
+    .project_box li {
+        margin-left: 10px;
+    }
+
+    .projectbtn {
+        width: 60%;
+        height: 50px;
+        margin-left: 20%;
+        background-color: rgb(12, 185, 243);
+        color: white;
+        border-radius: 20px;
+        border: solid 2px white;
+        font-size: large;
+    }
+
+    .projectbtn:hover {
+
+        opacity: 0.7;
+    }
+
+    .project_box2 {
+        width: 100%;
+        height: 100%;
+        margin-left: 2%;
+        background-color: white;
+        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+        border-radius: 20px;
+        z-index: 4;
+        backdrop-filter: blur(20px);
+        border: 1px solid black;
+        margin-top: 5%;
+    }
+
+    .project_box2 h4 {
+        color: black;
+        text-align: center;
+
+    }
+
+    .project_box2 li {
+        margin-left: 10px;
+    }
+}
