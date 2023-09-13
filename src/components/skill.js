@@ -3,44 +3,60 @@ import "../styles/skills.css"
 
 
 const skill = () => {
-  return (
 
-    <div className='Skills_Container'>
-      <br />
+  const redirectToCertificate1 = () => {
+    window.open('https://drive.google.com/file/d/1mlO1Gt3tzHE34mjpoi38ybQ0gTs3pffU/view?usp=sharing', '_blank');
+  };
+
+  const redirectToCertificate2 = () => {
+    window.open('https://drive.google.com/file/d/11pv1225pBjwLrZ8eBiAs8FfhMxtrBHcg/view?usp=sharing', '_blank');
+  };
+
+
+  const redirectToCertificate3 = () => {
+    window.open('https://www.hackerrank.com/yashdarshankar?hr_r=1', '_blank');
+  };
+
+  return (
+    <section className='Skills_Container'>
+
       <h1>Skills</h1>
       <div className='college_course'>
-    
 
         <div className='course_box'>
-          <h4>Certifications</h4>
-          &nbsp;<li>python programmer certification&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/file/d/1mlO1Gt3tzHE34mjpoi38ybQ0gTs3pffU/view?usp=sharing"><button >View</button></a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<i>Infosys-springboard</i>)<br /></li>
-          &nbsp;<li>The joy of computing using python&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/file/d/11pv1225pBjwLrZ8eBiAs8FfhMxtrBHcg/view?usp=sharing"><button>View</button></a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<i>NPTEL</i>)<br /></li>
-          &nbsp;<li>Hackerrank certifications &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.hackerrank.com/yashdarshankar?hr_r=1" target='blank'><button>View</button></a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<i>5 star in python</i>)<br /></li>
 
+          <h2>Certifications</h2>
 
+          <table>
+            <tr>
+              <td><li>python programmer certification</li></td>
+              <td><button onClick={redirectToCertificate1}>View</button></td>
+            </tr>
+
+            <tr>
+              <td><li>The joy of computing using python</li></td>
+              <td><button onClick={redirectToCertificate2}>View</button></td>
+            </tr>
+
+            <tr>
+              <td><li>Hackerrank certifications</li></td>
+              <td><button onClick={redirectToCertificate3}>View</button></td>
+            </tr>
+
+          </table>
         </div>
         <div className='skill_box'>
-        <br/>
-           <h3>Skills</h3>
-
-            <br/> 
+          <h2>Skills</h2>
           <li>Python</li>
-          <br/>
           <li>HTML and CSS</li>
-          <br/>
           <li>Javascript</li>
-          <br/>
           <li>DBMS</li>
-          <br/>
           <li>MERN Stack</li>
-          <br/>
-          <li>DSA</li><br/>
-          
-
+          <li>DSA</li>
         </div>
 
       </div>
-    </div>
+    </section>
   )
 }
 

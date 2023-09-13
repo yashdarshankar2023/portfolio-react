@@ -12,8 +12,8 @@
     margin-left: 10%;
     border: 1px solid black;
     padding: 20px;
-    
-
+    margin-top: 50px;
+    overflow-y: auto;
 }
 .Experience_Container{
     height: 720px;
@@ -23,15 +23,27 @@
     background-repeat: no-repeat;
     background-size: 1520px 720px;
     font-family: 'Fira Mono', monospace;
-    font-family: 'Outfit', sans-serif
+    font-family: 'Outfit', sans-serif;
+    margin-top: 20px;
 }
-.Experience_Container h1{
+.Experience_Container > h1{
     text-align: center;
     color: rgb(245, 118, 194);
     text-shadow: 0px 0px 2px pink;
     font-size: 80px;
     font-weight: 600; 
+    padding-top: 50px;
+    
 }
+.experience > h4{
+    color: black;
+}
+
+.experience > li{
+    margin-top: 25px;
+}
+
+
 @media (max-width: 400px) {
     .experience{
         align-items: center;
@@ -67,5 +79,8 @@
         font-size: 40px;
         font-weight: 200; 
         
+    }
+    .experience > h4{
+        font-size: small;
     }
   }

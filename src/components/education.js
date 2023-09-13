@@ -10,9 +10,6 @@ const education = () => {
        
         <div className='education_box'>
          
-          {/* &nbsp;<li>MGM's College of Engineering</li>
-          &nbsp;<li>Cambridge jr. college</li>
-          &nbsp;<li>Universal English Medium School</li> */}
           <table className='education_table'>
             <tr>
             <th> SR no</th>

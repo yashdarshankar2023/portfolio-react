@@ -8,7 +8,9 @@
     background-repeat: no-repeat;
     background-size: 1520px 1500px;
     font-family: 'Fira Mono', monospace;
-    font-family: 'Outfit', sans-serif
+    font-family: 'Outfit', sans-serif;
+    margin-top: 20px;
+    padding-top: 50px;
 }
 
 .Project_Container h1 {
@@ -16,6 +18,7 @@
     color: rgb(45, 146, 204);
     font-size: 80px;
     font-weight: 600;
+    margin-bottom: 50px;
 }
 
 .project_box {
@@ -27,6 +30,7 @@
     z-index: 4;
     backdrop-filter: blur(20px);
     border: 1px solid black;
+    padding: 20px;
 }
 
 .project_box h4 {
@@ -37,6 +41,7 @@
 
 .project_box li {
     margin-left: 10px;
+    margin-top: 20px;
 }
 
 .projectbtn {
@@ -48,6 +53,8 @@
     border-radius: 20px;
     border: solid 2px white;
     font-size: large;
+    margin-top: 4%;
+    
 }
 
 .projectbtn:hover {
@@ -65,6 +72,7 @@
     z-index: 4;
     backdrop-filter: blur(20px);
     border: 1px solid black;
+    padding: 20px;
 }
 
 .project_box2 h4 {
@@ -75,8 +83,12 @@
 
 .project_box2 li {
     margin-left: 10px;
+    margin-top: 20px;
 }
-
+.projectPara{
+    height:80%;
+    overflow-y:auto;
+}
 
 
 @media screen and (max-width: 600px) {
@@ -95,7 +107,7 @@
         text-align: center;
         color: rgb(45, 146, 204);
         font-size: 40px;
-        font-weight: 400;
+        font-weight: 600;
     }
 
     .project_box {
@@ -128,6 +140,8 @@
         border-radius: 20px;
         border: solid 2px white;
         font-size: large;
+        margin-top: 15%;
+        
     }
 
     .projectbtn:hover {

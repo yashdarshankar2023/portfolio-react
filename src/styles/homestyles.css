@@ -24,6 +24,7 @@
 .hero{
     height: 100%;
     width:100%;
+    margin-top: 0%;
 
 }
 .hero .content{
@@ -34,53 +35,55 @@
     text-align: center;
 
 }
-.hero .content h1{
-    font-size: 4rem;
-    padding:0.6rem 0 1.5rem;
+.hero .content > h1{
+    font-size: 64px;
+    padding:9.6px 0 24px;
 
 }
-.hero .content p{
-    font-size: 1.4rem;
+.hero .content > h1 > span{
+    font-size: 22.4px;
     font-weight: 200;
     text-transform: uppercase;
     
-
-
 }
 .content .btn{
-    margin: 1rem 0.2rem;
+    margin: 16px 3.2px;
 }
 
-.hero .content > a > button{
-    width: 45%;
-    height: 60px;
+.hero .content  > button{
+    padding: 20px;
     border-radius: 20px;
-    /* background-color: rgb(12, 185, 243); */
-    background-color: rgb(74, 110, 219);
-    
+    background-color: rgb(74, 110, 219);    
     color: white;
     border-radius: 20px;
     border: solid 2px white;
     font-size: large;
     margin-left: 5%;
+    margin-top: 50px;
  
 }
-.hero .content > a > button:hover{
+.hero .content  > button:hover{
     opacity: 0.7;
 }
 
 @media screen and (max-width: 640px){
-    .hero .content h1{
-        font-size: 3rem;
-    
-    
+    .hero .content > h1{
+        font-size: 36px;
     }
-    .hero .content p{
-        font-size: 1.4rem;
-        
-    
-    
+    .hero .content > h1 > span{
+        font-size: 16px;
     }
-
-    
+    .hero .content  > button{
+        padding: 10px;
+        border-radius: 5px;
+        background-color: rgb(74, 110, 219);    
+        color: white;
+        border-radius: 20px;
+        border: solid 2px white;
+        font-size: large;
+        margin-left: 5%;
+        margin-top: 25px;
+     
+    }
+ 
 }

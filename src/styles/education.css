@@ -12,6 +12,8 @@
     color: rgb(241, 127, 127);  
     font-size: 80px;
     font-weight: 600;
+    padding-bottom: 50px;
+    padding-top: 20px;
 }
 
 
@@ -69,7 +71,7 @@
     }
     .education_box{
         width:90%;
-        height: 85%;
+        height: 50%;
         background-color: white;
         background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
         border-radius: 20px;

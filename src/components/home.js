@@ -9,33 +9,22 @@ const Home = () => {
   };
 
   const redirectToContact = () => {
-    window.open('https://hospital-project-bmi1.onrender.com/', '_blank');
+    window.open('mailto:yashhdarshankar@gmail.com', '_blank');
   };
 
 
   return (
 
-    <div className="hero">
+    <section className="hero">
         <div className="mask">
             <img className="image" src={Image1} alt="Image1"/>
-
         </div>
         <div className="content">
-            <p> Hi , I am yash darshankar</p>
-            <h1>Web Developer / Software Developer</h1>
-            <br/><br/>
-          
-            <a><button onClick={redirectToResume}>Download Resume</button></a>
-            <a href="mailto:yashhdarshankar@gmail.com"><button>Contact me</button></a>
-
-
-        
-         
-
-
-        
+            <h1><span> Hi , I am yash darshankar</span> <br/> Web Developer / Software Developer</h1>
+            <button onClick={redirectToResume}>Download Resume</button>
+            <button onClick={redirectToContact}>Contact Me</button>
         </div>
-    </div>
+    </section>
   )
 }
 

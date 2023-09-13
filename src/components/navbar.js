@@ -18,7 +18,7 @@ const Navbar = () => {
   };
   const ExperienceScroll = () =>{
     window.scrollTo({
-      top: 700, 
+      top: 650, 
       behavior: 'smooth'
     });
   };
@@ -50,7 +50,7 @@ const Navbar = () => {
   };
   window.addEventListener('scroll',changeColor)
   return (
-    <div className={color ? "header header-bg" : "header"}>
+    <nav className={color ? "header header-bg" : "header"}>
         <Link to="/">
             <h1>Portfolio</h1>
         </Link>
@@ -81,13 +81,10 @@ const Navbar = () => {
             <a href="mailto:yashhdarshankar@gmail.com">Email me</a>
             </li>
         </ul>
-        <div className="hamburger" onClick={handleClick}>
+        <div className="Close-Icon" onClick={handleClick}>
             {click ? (<FaTimes size={20} style={{color:"white"}}/>) : (<FaBars size={20} style={{color:"white"}}/>)}
-            
-            
-
         </div>
-    </div>
+    </nav>
   )
 }
 
