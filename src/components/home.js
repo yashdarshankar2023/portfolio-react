@@ -1,5 +1,5 @@
 import "../styles/homestyles.css";
-import React from 'react'
+import {React} from 'react'
 import  Image1  from "../assets/portfolio5.png";
 
 
@@ -12,9 +12,7 @@ const Home = () => {
     window.open('mailto:yashhdarshankar@gmail.com', '_blank');
   };
 
-
   return (
-
     <section className="hero">
         <div className="mask">
             <img className="image" src={Image1} alt="Image1"/>

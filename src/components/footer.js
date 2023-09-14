@@ -1,4 +1,4 @@
-import React from 'react'
+import {React} from 'react'
 import "../styles/footerstyles.css"
 import { FaHome, FaInstagram, FaLinkedin, FaPhone } from "react-icons/fa"
 import { FiMail } from "react-icons/fi"

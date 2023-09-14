@@ -5,7 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1520px 720px;
-    margin-top: 2%;    
+    margin-bottom: 20px;    
 }
 .Education_Container h1{
     text-align: center;
@@ -13,7 +13,7 @@
     font-size: 80px;
     font-weight: 600;
     padding-bottom: 50px;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 
@@ -53,7 +53,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: 1520px 1440px;
-        margin-top: 2%;    
+            
     }
     .Education_Container h1{
         text-align: center;

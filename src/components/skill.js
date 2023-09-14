@@ -1,4 +1,4 @@
-import React from 'react'
+import {React} from 'react'
 import "../styles/skills.css"
 
 
@@ -28,20 +28,30 @@ const skill = () => {
           <h2>Certifications</h2>
 
           <table>
-            <tr>
-              <td><li>python programmer certification</li></td>
-              <td><button onClick={redirectToCertificate1}>View</button></td>
-            </tr>
+            <thead>
 
-            <tr>
-              <td><li>The joy of computing using python</li></td>
-              <td><button onClick={redirectToCertificate2}>View</button></td>
-            </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><li>python programmer certification</li></td>
+                <td><button onClick={redirectToCertificate1}>View</button></td>
+              </tr>
 
-            <tr>
-              <td><li>Hackerrank certifications</li></td>
-              <td><button onClick={redirectToCertificate3}>View</button></td>
-            </tr>
+              <tr>
+                <td><li>The joy of computing using python</li></td>
+                <td><button onClick={redirectToCertificate2}>View</button></td>
+              </tr>
+
+              <tr>
+                <td><li>Hackerrank certifications</li></td>
+                <td><button onClick={redirectToCertificate3}>View</button></td>
+              </tr>
+
+            </tbody>
+
+            <tfoot>
+
+            </tfoot>
 
           </table>
         </div>

@@ -6,3 +6,54 @@
       <Route path="/contact" element={<Contact/>}/>
       
     </Routes>
+
+
+
+    const HomeScroll = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    };
+    const ExperienceScroll = () => {
+      window.scrollTo({
+        top: 650,
+        behavior: 'smooth'
+      });
+    };
+    const ProjectScroll = () => {
+      window.scrollTo({
+        top: 1400,
+        behavior: 'smooth'
+      });
+    };
+    const SkillScroll = () => {
+      window.scrollTo({
+        top: 2200,
+        behavior: 'smooth'
+      });
+    };
+    const EducationScroll = () => {
+      window.scrollTo({
+        top: 2900,
+        behavior: 'smooth'
+      });
+    };
+
+
+
+
+
+    const [color, setColor] = useState(false);
+
+
+
+    const changeColor = () => {
+      if (window.scrollY >= 1) {
+        setColor(true);
+  
+      } else {
+        setColor(false);
+      }
+    };
+    window.addEventListener('scroll', changeColor)

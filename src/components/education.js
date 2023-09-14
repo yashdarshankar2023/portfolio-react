@@ -1,27 +1,32 @@
-import React from 'react'
+import {React} from 'react'
 import "../styles/education.css"
 
 const education = () => {
   return (
     <div className='Education_Container'>
-      <br/>
-        
-        <h1>Education</h1>
-       
-        <div className='education_box'>
-         
-          <table className='education_table'>
+      <br />
+
+      <h1>Education</h1>
+
+      <div className='education_box'>
+
+        <table className='education_table'>
+          <thead>
             <tr>
-            <th> SR no</th>
-            <th> Name of College</th>
-            <th> Boards / Degrees</th>
-            <th> Starting Date</th>
-            <th> Ending Date</th>
-            <th> CGPA / Percentage Obtained</th>
-            
-    
+              <th> SR no</th>
+              <th> Name of College</th>
+              <th> Boards / Degrees</th>
+              <th> Starting Date</th>
+              <th> Ending Date</th>
+              <th> CGPA / Percentage Obtained</th>
+
+
 
             </tr>
+
+          </thead>
+          <tbody>
+
             <tr>
               <td>1.</td>
               <td>MGM's college of engineering, Nanded</td>
@@ -46,16 +51,22 @@ const education = () => {
               <td>June 27, 2017</td>
               <td>84.60%</td>
             </tr>
-  
-          </table>
-          
-        </div>
+
+
+          </tbody>
+          <tfoot>
+            
+          </tfoot>
+
+        </table>
+
+      </div>
 
     </div>
 
-        
 
-  
+
+
   )
 }
 
