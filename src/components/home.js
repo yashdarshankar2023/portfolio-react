@@ -5,7 +5,7 @@ import  Image1  from "../assets/portfolio5.png";
 
 const Home = () => {
   const redirectToResume = () => {
-    window.open('https://drive.google.com/file/d/1FvdLCNRHZ4FMF4nMuFBIVY_qzEZ49Sh6/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1duOBQwlO1W4pIxpbjqZz8sgZBwW1rzxy/view?usp=sharing', '_blank');
   };
 
   const redirectToContact = () => {

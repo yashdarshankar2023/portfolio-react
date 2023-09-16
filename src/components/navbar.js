@@ -35,7 +35,8 @@ const Navbar = () => {
           <Link to="/Education">Education</Link>
         </li>
         <li>
-          <a href="https://drive.google.com/file/d/1FvdLCNRHZ4FMF4nMuFBIVY_qzEZ49Sh6/view?usp=sharing" download="Yash_Darshankar" target="blank">Resume</a>
+          <a href="https://drive.google.com/file/d/1duOBQwlO1W4pIxpbjqZz8sgZBwW1rzxy/view?usp=sharing" download="Yash_Darshankar" target="blank">Resume</a>
+          
         </li>
         <li>
           <a href="mailto:yashhdarshankar@gmail.com">Email me</a>
